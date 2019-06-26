@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="../bower_components/ejs/ejs.min.js"></script>
+    <style>
+        .header{
+            color: darkcyan;
+        }
+        .subheader{
+            color:darkcyan;
+            background-color: aquamarine;
+        }
+        .mainHeading{
+            color: darkcyan;
+        }
+        .agenda{
+            color: firebrick;
+        }
+        .specialNote{
+            color: aliceblue;
+            background-color: black;
+        }
+        .logo{
+            height: 25px;
+            width: 25px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body >
+   
+    <div class="container">
+    <h1 class="header" id="header" align='center'>STAR FUNCTION</h1>
+    <h2 class="subheader" id="subheader" align='center'>Medal Meet Invitation</h2>
+    <p>To,</p>
+    <p>Mr. {{ name}}</p>
+    <p>H.Q. {{headquater}}</p>
+    <h3 class="mainHeading" id="mainHeading" align='center'>Star Function</h3>
+    <p>Heartiest congratulations for winning the prestigious Medal for the year 2017-18, we are all very proud of your achievements and we wish this success to continue forever.</p>
+    <div>
+        <table class="table table-striped">
+        <th align="center" colspan="2">Kindly note that 'ONE DAY STAR FUNCTION' will take place as following:</th>
+        <tr>
+            <td>TIME</td>
+            <td>11:00 AM</td>
+        </tr>
+        <tr>
+            <td>DATE</td>
+            <td>15.11.2018</td>
+        </tr>
+        <tr>
+            <td>PLACE</td>
+            <td>JW Marriot Hotel</td>
+        </tr>
+        <tr>
+            <td>TELEPHONE</td>
+            <td>+91-11-45212121</td>
+        </tr>
+    </table>
+    </div>
+    <h3 class="agenda" id="agenda" align='center'>Agenda</h3>
+    <table class="table table-striped">
+        <tr align="center">
+            <th>DAY</th>
+            <th>TIMINGS</th>
+            <th>EVENT</th>
+        </tr>
+        <tr align="center">
+            <td rowspan="7" align="center" >DAY 1</td>
+            <td>11:00-12:00 PM</td>
+            <td>Check in with welcome drinks</td>
+        </tr>
+        <tr align="center">
+            <td>12:00-02:00 PM</td>
+            <td>Medalist Meating</td>
+        </tr>
+        <tr align="center">
+            <td>02:00-03:00 PM</td>
+            <td>Lunch with Beer</td>
+        </tr>
+        <tr align="center">
+            <td>04:30-05:00PM</td>
+            <td>HI Tea</td>
+        </tr>
+        <tr align="center">
+            <td>05:00 PM Onwards</td>
+            <td>Star Performer Evening and Games</td>
+        </tr>
+        <tr align="center">
+            <td rowspan="2">08:00 PM Onwards</td>
+            <td>DJ and Cocktail Party</td>
+        </tr>
+        <tr align="center">
+            <td>Gala Dinner</td>
+        </tr>
+        <tr align="center">
+            <td rowspan="2">Day 2</td>
+            <td rowspan="2">08:00 AM</td>
+            <td>Buffet Breakfast</td>
+        </tr>
+        <tr align="center">
+            <td>Check-Out</td>
+        </tr>
+    </table>
+    <h3 class="info" id="info">*Dress Code: Casual</h3>
+    <p>We are sure that your presence and overall atmosphere will make it a memorable event.</p>
+    <p>With warm regards</p>
+    <p>Your Brother</p>
+    <p>XYZ</p>
+    <h4 id="specialNote">SPECIAL NOTE</h4>
+    <p>- Maintain the Mankind's respect as an organization and standards of high personal etiquettes /values and also maintain Hotel hygiene, Rules & Regulations.</p>
+    <p>- Don't share & upload video recording of Medal Meet Function on YouTube or any other social networking site.</p>
+    <p>- Carry your Original ID proof & spouse ID Proof (If Coming), any one of the following at the Venue: - Driving License / UID Card (Aadhaar) / Passport / Ration Card / Voter ID. This is mandatory.</p>
+    <p>- Reach Hotel by 11 am after fresh up and room will be provided to you by 3 pm.</p>
+    <p>- In case of any Loss/Damage/Theft of hotel property due to your negligence, it will be deducted from your incentive.</p>
+    <p>- Please note that it is mandatory for female winner candidates to accompany with their one family member (Mother/Father/Husband/Brother) and inform us accordingly.</p>
+    <p>- Please come with your return reservation for your convenience.</p>
+    <p>- Function venue (Hotel) is a No Smoking Zone.</p>
+    <p>- Please Don't bring your friends and relatives because only your immediate member i.e. wife and kids are welcome.</p>
+    <p>- We have made proper accommodation arrangements at the above mentioned Hotel as per your confirmation to H.O., if you don't come. we will deduct the retention amount from your accounts.</p>
+    <p>- Note: - There will be different types of contests and games for all the invitees, their wives & kids in which winners will get exciting prizes.</p>
+</div>
+</body>
+
+</html>
